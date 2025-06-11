@@ -13,21 +13,21 @@ interface WifiData {
 const wifiData: WifiData[] = [
   {
     title: 'Основной корпус',
-    networkName: 'WiFi',
-    password: 'Password',
+    networkName: 'ZA_POVODOM',
+    password: 'qwerty123456',
     icon: 'home'
   },
   {
-    title: 'Ресторан',
-    networkName: 'Cafe_Guest_Network',
-    password: 'CoffeeLovers2024!',
-    icon: 'coffee'
+    title: 'Белый Корпус>',
+    networkName: 'Mfzksk',
+    password: 'kskzv2023s',
+    icon: 'home'
   },
   {
     title: 'Апартаменты',
-    networkName: 'Office_Secure_WiFi',
-    password: 'WorkSecure2024#',
-    icon: 'office'
+    networkName: 'Apart1',
+    password: 'berezki2025',
+    icon: 'home'
   }
 ];
 
