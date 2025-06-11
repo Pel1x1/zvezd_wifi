@@ -18,7 +18,7 @@ const wifiData: WifiData[] = [
     icon: 'home'
   },
   {
-    title: 'Белый Корпус>',
+    title: 'Белый Корпус',
     networkName: 'Mfzksk',
     password: 'kskzv2023s',
     icon: 'home'
