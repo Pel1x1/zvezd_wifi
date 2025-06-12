@@ -5,7 +5,7 @@ import { FaVk } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaWifi } from "react-icons/fa";
 import { BsFillGeoAltFill } from "react-icons/bs";
-
+import { SiReverbnation } from "react-icons/si";
 
 interface WifiData {
   title: string;
@@ -55,6 +55,11 @@ const socialLinks = [
     label: 'Запись на СПА',
     url: 'https://widget.sonline.su/ru/services/13277408/?placeid=164608873',
     Icon: BsFillGeoAltFill,
+  },
+  {
+    label: 'Оставить Отзыв',
+    url: 'https://yandex.ru/maps/?add-review=true&ll=38.107614%2C55.830974&mode=poi&poi%5Bpoint%5D=38.107098%2C55.830939&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D69852955387%26yclid%3D7311432267653971967&tab=reviews&z=18.01',
+    Icon: SiReverbnation,
   }
 ];
 
