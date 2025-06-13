@@ -86,7 +86,7 @@ const Index = () => {
         <div className="max-w-md mx-auto">
           {/* Header */}
           <div className="text-center mb-12 animate-fade-in">
-            <h1 className="text-4xl font-bold text-white mb-4 drop-shadow-lg" style={{fontFamily:"Gothamlight"}}>
+            <h1 className="text-4xl font-bold text-white mb-4 drop-shadow-lg">
               ЗВЁЗДНЫЙ
             </h1>
             <p className="text-white/90 text-lg">
