@@ -6,6 +6,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { FaWifi } from "react-icons/fa";
 import { BsFillGeoAltFill } from "react-icons/bs";
 import { SiReverbnation } from "react-icons/si";
+import "../globals.css"
 
 interface WifiData {
   title: string;
@@ -80,13 +81,13 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: 'rgb(245, 151, 148)' }}>
+    <div className="min-h-screen" style={{ backgroundColor: 'rgba(210,182,177,1)' }}>
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-md mx-auto">
           {/* Header */}
           <div className="text-center mb-12 animate-fade-in">
-            <h1 className="text-4xl font-bold text-white mb-4 drop-shadow-lg">
-              Звёздный
+            <h1 className="text-4xl font-bold text-white mb-4 drop-shadow-lg" style={{fontFamily:"Gothamlight"}}>
+              ЗВЁЗДНЫЙ
             </h1>
             <p className="text-white/90 text-lg">
               Добро пожаловать! Выберите действие ниже.
