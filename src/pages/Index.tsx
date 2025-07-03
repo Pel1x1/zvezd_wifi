@@ -48,7 +48,7 @@ const socialLinks = [
     Icon: FaTelegramPlane,
   },
   {
-    label: 'Телеграм Bot',
+    label: 'Телеграм Bot | Бронь столов, заказ еды в номер',
     url: 'https://t.me/stars_hotel_bot',
     Icon: FaTelegramPlane,
   },
