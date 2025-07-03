@@ -6,6 +6,8 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { FaWifi } from "react-icons/fa";
 import { BsFillGeoAltFill } from "react-icons/bs";
 import { SiReverbnation } from "react-icons/si";
+import { CgWebsite } from "react-icons/cg";
+
 import "../globals.css"
 
 interface WifiData {
@@ -38,6 +40,11 @@ const wifiData: WifiData[] = [
 
 const socialLinks = [
   {
+    label: 'Сайт',
+    url: 'https://zvezdny-complex.ru/',
+    Icon: CgWebsite ,
+  },
+  {
     label: 'Вконтакте',
     url: 'https://vk.com/restoran_zapovodom',
     Icon: FaVk,
@@ -61,7 +68,8 @@ const socialLinks = [
     label: 'Оставить Отзыв',
     url: 'https://yandex.ru/maps/?add-review=true&ll=38.107614%2C55.830974&mode=poi&poi%5Bpoint%5D=38.107098%2C55.830939&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D69852955387%26yclid%3D7311432267653971967&tab=reviews&z=18.01',
     Icon: SiReverbnation,
-  }
+  },
+  
 ];
 
 const Index = () => {
