@@ -7,7 +7,8 @@ import { FaWifi } from "react-icons/fa";
 import { BsFillGeoAltFill } from "react-icons/bs";
 import { SiReverbnation } from "react-icons/si";
 import { CgWebsite } from "react-icons/cg";
-
+import { IoFastFood } from "react-icons/io5";
+import { MdTableRestaurant } from "react-icons/md";
 import "../globals.css"
 
 interface WifiData {
@@ -55,9 +56,19 @@ const socialLinks = [
     Icon: FaTelegramPlane,
   },
   {
-    label: 'Телеграм Bot | Бронь столов, заказ еды в номер',
+    label: 'Телеграм Bot',
     url: 'https://t.me/stars_hotel_bot',
     Icon: FaTelegramPlane,
+  },
+  {
+    label: 'Заказ еды в номер',
+    url: 'https://t.me/stars_hotel_bot',
+    Icon: IoFastFood,
+  },
+  {
+    label: 'Бронь столов',
+    url: 'https://t.me/stars_hotel_bot',
+    Icon: MdTableRestaurant,
   },
   {
     label: 'Запись на СПА',
